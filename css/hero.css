@@ -116,9 +116,7 @@
 .policy .text {
     margin-bottom: 3rem;
 }
-.policy__img {
-    display: none;
-}
+
 
 
 
@@ -253,12 +251,7 @@
    .policy {
     padding: 15rem;
    }
-   .policy__img {
-       display: block;
-       width: 50%;
-       object-fit: cover;
-       z-index: 4;
-   }
+ 
    .policy__box {
     display: flex;
     justify-content: space-between;
@@ -268,7 +261,7 @@
    .policy__box::before {
     display: block;
     content: '';
-    width: 70%;
+    width: 90%;
     height: 120%;
     transform: translate(0, -50%);
     border: .5rem solid var(--second-brand-color);
@@ -279,6 +272,18 @@
    }
    .policy .btn {
     margin-left: 0;
+   }
+   .policy__box::after {
+    display: block;
+    content: '';
+    width: 40rem;
+    height: 40rem;
+    transform: translate(0, -50%);
+    border: 5rem solid var(--sub-text-color);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border-radius: 3rem;
    }
 }
 
