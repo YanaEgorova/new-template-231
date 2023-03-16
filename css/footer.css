@@ -38,6 +38,12 @@
 .footer__span {
   font-size: 1.5rem;
 }
+.footer__icon {
+  display: block;
+  width: 3rem;
+  height: auto;
+  margin-right: 1rem;
+}
 @media screen and (min-width: 1440px)  {
  
   .footer__top-block {
